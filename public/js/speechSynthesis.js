@@ -28,8 +28,6 @@ document.body.onload = () =>{
         voiceSelect.appendChild(option);
     }
     voiceSelect.addEventListener('change', changeVoice);
-
-
 }
 
 

@@ -35,7 +35,7 @@ const videoElement = document.querySelector(".input_video"),
     backgroundAlpha: 0,
     backgroundColor: 0x646464,
 
-    width: 1000,
+    width: 860,
     height: 720,
   });
 
@@ -56,7 +56,7 @@ const videoElement = document.querySelector(".input_video"),
   currentModel.scale.set(0.35);
   currentModel.interactive = true;
   currentModel.anchor.set(0.5, 0.5);
-  currentModel.position.set(window.innerWidth * 0.4, window.innerHeight * 0.5);
+  currentModel.position.set(window.innerWidth * 0.3, window.innerHeight * 0.5);
 
   // Add events to drag model
   currentModel.on("pointerdown", (e) => {

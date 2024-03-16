@@ -2,7 +2,7 @@
     padding: 10px 20px;
     width: 180px;
     font-size: 16px;
-    background-color: #00cd67;
+    background-color: #38e08c;
     color: rgb(0, 0, 0);
     font-weight: bold;
     border: none;
@@ -25,6 +25,62 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     color: #ffffff;
     white-space: pre-wrap;
+    overflow-y: auto;
+    max-height: 100%;
+    text-align: right;
+    display: block;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#GPTAnswer::-webkit-scrollbar {
+  width: 10px;
+}
+
+#GPTAnswer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+#GPTAnswer::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+#GPTAnswer::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.prompt {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  background-color: #38e08c;
+  padding: 10px 20px;
+  border-radius: 18px;
+  margin: 5px;
+  display: inline-block;
+  max-width: 80%;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: left;
+  width: fit-content;
+}
+
+.answer {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 18px;
+  margin: 5px;
+  display: inline-block;
+  max-width: 80%;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  align-self: flex-end;
+  width: fit-content;
 }
 
 #voiceSelect {
@@ -49,12 +105,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%; /* Adjust as needed */
+    width: 40%; /* Adjust as needed */
     margin-right: 10px;
   }
   
   .right {
-    width: 70%; /* Adjust as needed */
+    width: 60%; /* Adjust as needed */
   }
   
   .top {
@@ -67,12 +123,15 @@
     align-items: center;
     justify-content: center;
     width: 90%;
+    height: 30%;
 }
   
 .bottom {
-    flex-basis: 50%; /* Adjust as needed */
-    background-color: #3d3333; /* Set the background color of the bottom div */
-    padding: 4rem; /* Add padding */
+    flex-grow: 0;
+    height: 500px;
+    margin-top: 10px;
+    background-color: #322a2a; /* Set the background color of the bottom div */
+    padding: 1rem; /* Add padding */
     border-radius: 10px; /* Round the borders */
-    width: 50%;
+    width: 80%;;
 }
