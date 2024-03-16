@@ -13,7 +13,7 @@ let speech_random = (x,y) => {
         mover_boca(2,Math.random());
         setTimeout(()=>{ speech_random(x,y)},100);
     } else{
-        mover_boca(2,0);
+        mover_boca(0,0);
     }
 }
 
@@ -32,8 +32,18 @@ const recognition_process = data =>{
 let process_message = (message)=>{
     let process_message = JSON.parse(message);
     if(process_message.action == "gpt_answer" ) {
-        synthetizer.change_pitch(1.5);
-        document.getElementById("GPTAnswer").innerText = process_message.message;
+        synthetizer.change_pitch(2);
+        let message = process_message.message;
+        let messageIndex = 0;
+        document.getElementById("GPTAnswer").innerText = '';
+        let messageInterval = setInterval(function() {
+            if (messageIndex < message.length) {
+                document.getElementById("GPTAnswer").innerText += message[messageIndex];
+                messageIndex++;
+            } else {
+                clearInterval(messageInterval);
+            }
+        }, 35); // adjust this value to change the speed of the text display
         synthetizer.say(process_message.message); 
         is_speaking = true;
         speech_random(0,0);

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Human Agent Interaction</title>
     <!--     Live2D SDK  -->
     <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
@@ -13,12 +13,21 @@
     <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/kalidokit@1.1/dist/kalidokit.umd.js"></script>
     <script src="js/main.js" type="module" defer></script>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-    <canvas id="live2d"></canvas>  
-    <button id="BeginRecognition">Empezar reconocimiento</button>
-    <div id="TextDetection"></div>
-    <div id="GPTAnswer"></div>
-</body>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body bgcolor="#000000">
+    <div class="container">
+      <div class="left">
+        <div class="top">
+          <button id="BeginRecognition">Empezar reconocimiento</button>
+          <div id="TextDetection"></div>
+          <select id="voiceSelect"></select>
+        </div>
+        <div id="GPTAnswer" class="bottom"></div>
+      </div>
+      <div class="right">
+        <canvas id="live2d"></canvas>
+      </div>
+    </div>
+  </body>
 </html>

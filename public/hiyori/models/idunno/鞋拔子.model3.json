@@ -1,0 +1,23 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "鞋拔子.moc3",
+		"Textures": [
+			"鞋拔子.8192/texture_00.png"
+		],
+		"Physics": "鞋拔子.physics3.json",
+		"DisplayInfo": "鞋拔子.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}

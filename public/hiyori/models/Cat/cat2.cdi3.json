@@ -1,0 +1,382 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamGroup2",
+			"Name": "Angle X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroup2",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamGroup2",
+			"Name": "Angle Z"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroup6",
+			"Name": "Mouth Form"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroup6",
+			"Name": "Mouth Open"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "ParamGroup3",
+			"Name": "Body X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "ParamGroup3",
+			"Name": "Body Y"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "ParamGroup3",
+			"Name": "Breath"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "ParamGroup3",
+			"Name": "Body Z"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "ParamGroup8",
+			"Name": "Pendant wiggle"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "ParamGroup4",
+			"Name": "Excited"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "ParamGroup4",
+			"Name": "Angy"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup5",
+			"Name": "EyeL Open"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup5",
+			"Name": "EyeR Open"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "ParamGroup5",
+			"Name": "EyeL Smile"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "ParamGroup5",
+			"Name": "EyeR Smile"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup5",
+			"Name": "Eyeball X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup5",
+			"Name": "Eyeball Y"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_Tail",
+			"GroupId": "ParamGroup",
+			"Name": "[0]Tail"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_Tail",
+			"GroupId": "ParamGroup",
+			"Name": "[1]Tail"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_Tail",
+			"GroupId": "ParamGroup",
+			"Name": "[2]Tail"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_Tail",
+			"GroupId": "ParamGroup",
+			"Name": "[3]Tail"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_Tail",
+			"GroupId": "ParamGroup",
+			"Name": "[4]Tail"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_Tail",
+			"GroupId": "ParamGroup",
+			"Name": "[5]Tail"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_Tail",
+			"GroupId": "ParamGroup",
+			"Name": "[6]Tail"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_Tail",
+			"GroupId": "ParamGroup",
+			"Name": "[7]Tail"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_Tail",
+			"GroupId": "ParamGroup",
+			"Name": "[8]Tail"
+		},
+		{
+			"Id": "Param_Angle_Rotation_10_Tail",
+			"GroupId": "ParamGroup",
+			"Name": "[9]Tail"
+		},
+		{
+			"Id": "Param_Angle_Rotation_11_Tail",
+			"GroupId": "ParamGroup",
+			"Name": "[10]Tail"
+		},
+		{
+			"Id": "Param_Angle_Rotation_12_Tail",
+			"GroupId": "ParamGroup",
+			"Name": "[11]Tail"
+		},
+		{
+			"Id": "Param_Angle_Rotation_13_Tail",
+			"GroupId": "ParamGroup",
+			"Name": "[12]Tail"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "ParamGroup7",
+			"Name": "Cheek"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "ParamGroup7",
+			"Name": "Hair Move Front"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "ParamGroup7",
+			"Name": "Hair Move Side"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "ParamGroup7",
+			"Name": "Hair Move Back"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "ParamGroup7",
+			"Name": "BrowL Y"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "ParamGroup7",
+			"Name": "BrowR Y"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "ParamGroup7",
+			"Name": "BrowL X"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "ParamGroup7",
+			"Name": "BrowR X"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "ParamGroup7",
+			"Name": "BrowL Angle"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "ParamGroup7",
+			"Name": "BrowR Angle"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "ParamGroup7",
+			"Name": "BrowL Form"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "ParamGroup7",
+			"Name": "BrowR Form"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "Head"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "Mouth"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "Body"
+		},
+		{
+			"Id": "ParamGroup8",
+			"GroupId": "",
+			"Name": "Physics"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "Toggles"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "Eyes"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "Tail"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "No use"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part15",
+			"Name": "just horns.psd"
+		},
+		{
+			"Id": "bling",
+			"Name": "bling"
+		},
+		{
+			"Id": "Part",
+			"Name": "L whiskers"
+		},
+		{
+			"Id": "Part2",
+			"Name": "R whiskers"
+		},
+		{
+			"Id": "Part3",
+			"Name": "pendant 1"
+		},
+		{
+			"Id": "Part4",
+			"Name": "pendant 3"
+		},
+		{
+			"Id": "Part5",
+			"Name": "pendant 2"
+		},
+		{
+			"Id": "Part6",
+			"Name": "L feet"
+		},
+		{
+			"Id": "Part7",
+			"Name": "R feet"
+		},
+		{
+			"Id": "Part8",
+			"Name": "L front paws"
+		},
+		{
+			"Id": "Part9",
+			"Name": "R front paws"
+		},
+		{
+			"Id": "Part10",
+			"Name": "L eye bling"
+		},
+		{
+			"Id": "Part11",
+			"Name": "R eye bling"
+		},
+		{
+			"Id": "Part12",
+			"Name": "L closed eyes"
+		},
+		{
+			"Id": "Part13",
+			"Name": "R closed eyes"
+		},
+		{
+			"Id": "Part14",
+			"Name": "L eyes"
+		},
+		{
+			"Id": "nose",
+			"Name": "nose"
+		},
+		{
+			"Id": "mouth",
+			"Name": "mouth"
+		},
+		{
+			"Id": "Part16",
+			"Name": "mouth open"
+		},
+		{
+			"Id": "Part17",
+			"Name": "L horns front"
+		},
+		{
+			"Id": "head",
+			"Name": "head"
+		},
+		{
+			"Id": "Part20",
+			"Name": "R ears"
+		},
+		{
+			"Id": "collar",
+			"Name": "collar"
+		},
+		{
+			"Id": "belly",
+			"Name": "belly"
+		},
+		{
+			"Id": "tail",
+			"Name": "tail"
+		},
+		{
+			"Id": "Tail_Skinning",
+			"Name": "Tail(Skinning)"
+		},
+		{
+			"Id": "Part23",
+			"Name": "Tail(Rotation)"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"ParamBodyAngleX",
+			"ParamBodyAngleY"
+		]
+	]
+}

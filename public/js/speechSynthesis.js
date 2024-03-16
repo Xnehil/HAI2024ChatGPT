@@ -16,21 +16,29 @@ document.body.onload = () =>{
         console.log("Tu navegador no tiene voces en español.");
         return -1;
     }
-    else if(voices.length==1){
-        selected_voice = voices[0];
+
+    selected_voice = voices[0];
+
+    //Populate the select "voiceSelect" with the voices
+    let voiceSelect = document.getElementById("voiceSelect");
+    for(let voice of voices){
+        let option = document.createElement("option");
+        option.textContent = voice.name;
+        option.setAttribute("value",voice.name);
+        voiceSelect.appendChild(option);
     }
-    else{
-        for(let voice of voices){
-            if(voice.lang.includes("US")){
-                selected_voice = voice;
-            }
-        }
-        if(!selected_voice){
-            selected_voice = voices[0]
-        }
-    }
+    voiceSelect.addEventListener('change', changeVoice);
+
 
 }
+
+
+function changeVoice() {
+    let selectedVoiceName = voiceSelect.value;
+    selected_voice = voices.find(voice => voice.name === selectedVoiceName);
+}
+
+
 
 let onendSynthetizer = console.log;
 
